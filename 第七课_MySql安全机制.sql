@@ -142,6 +142,17 @@ mysql> show grants;
 +--------------------------------------------------------------------------------------------------------------------------+
 1 row in set (0.00 sec)
 
+查看其他用户权限
+show grants for stanlong@'127.0.0.1';
+
+回收权限
+revoke all privileges on *.* from 'stanlong'@'127.0.0.1';
+
+revoke select on *.* from 'stanlong'@'127.0.0.1'; --撤回 select 权限
+
+grant select on *.* to stanlong@'%'; --重新赋权
+
+grant select(col1), insert(col2, col3) on taotao.tb_user to stanlong@'%'; --给 stanlong 用户赋于 taotao.tb_user 表 第一列的查询权限，第二列和第三列的insert权限
 
 修改用户密码
 --方法1：

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMVC:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Parent" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:WareHouse10" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:WareHouse10" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:hivefunction" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:WareHouse10" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:log-collector" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:WebProject" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:XML" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:XML" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:xml" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:XML" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:xml" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Dom4jProject" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis01_helloMyBatis" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis02_resultMap" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis03_dynamicSQL" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis04_cache" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis05_ssm" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis06_mbg" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis05_ssm" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis06_mbg" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46de7cff-026b-4ec4-a5e2-81bca25ffb55" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\StanLong\Tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="28Dy2zgm3PAMtHn8TFYZBnPHCFm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/img" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StanLong\git_repository\Framework\03Spring\02SpringMVC\SpringMVC\src\main\webapp\static\img" />
+      <recent name="D:\StanLong\git_repository\Framework\03Spring\02SpringMVC\SpringMVC\src\main\webapp\static\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.30">
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stanlong.leetcode.LeetCode" />
+      <module name="SpringMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stanlong.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="SpringMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMVC" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVC" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7402" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LeetCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46de7cff-026b-4ec4-a5e2-81bca25ffb55" name="Default Changelist" comment="" />
+      <created>1650765248717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650765248717</updated>
+      <workItem from="1650765250676" duration="7432000" />
+      <workItem from="1650796075619" duration="681000" />
+      <workItem from="1650812800924" duration="1638000" />
+      <workItem from="1650886699635" duration="8101000" />
+      <workItem from="1651067375114" duration="6521000" />
+      <workItem from="1651148314249" duration="8886000" />
+      <workItem from="1651191815716" duration="2910000" />
+      <workItem from="1651230196284" duration="5497000" />
+      <workItem from="1651239648970" duration="2850000" />
+      <workItem from="1651285702844" duration="667000" />
+      <workItem from="1651305245212" duration="68000" />
+      <workItem from="1651478982683" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="166" width="1099" height="849" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1650771937603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="410" y="166" width="1099" height="849" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650771937603" />
+    <state x="718" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1651239863058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1651239863058" />
+    <state x="511" y="408" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1650769692282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="511" y="408" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1650769692282" />
+    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651074715145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651074715145" />
+    <state width="454" height="582" key="DebuggerActiveHint" timestamp="1650894116252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="454" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1650894116252" />
+    <state x="791" y="268" key="FileChooserDialogImpl" timestamp="1651479018197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="791" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1651479018197" />
+    <state width="1565" height="539" key="GridCell.Tab.0.bottom" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.0.center" timestamp="1651251302900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302900" />
+    <state width="1565" height="539" key="GridCell.Tab.0.left" timestamp="1651251302900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302900" />
+    <state width="1565" height="539" key="GridCell.Tab.0.right" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.1.bottom" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.1.center" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.1.left" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.1.right" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.2.bottom" timestamp="1651251302902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302902" />
+    <state width="1565" height="539" key="GridCell.Tab.2.center" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.2.left" timestamp="1651251302901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302901" />
+    <state width="1565" height="539" key="GridCell.Tab.2.right" timestamp="1651251302902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302902" />
+    <state width="1565" height="539" key="GridCell.Tab.3.bottom" timestamp="1651251302902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302902" />
+    <state width="1565" height="539" key="GridCell.Tab.3.center" timestamp="1651251302902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302902" />
+    <state width="1565" height="539" key="GridCell.Tab.3.left" timestamp="1651251302902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302902" />
+    <state width="1565" height="539" key="GridCell.Tab.3.right" timestamp="1651251302902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="539" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651251302902" />
+    <state width="1723" height="384" key="GridCell.Tab.4.bottom" timestamp="1651073801609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="384" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651073801609" />
+    <state width="1723" height="384" key="GridCell.Tab.4.center" timestamp="1651073801608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="384" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651073801608" />
+    <state width="1723" height="384" key="GridCell.Tab.4.left" timestamp="1651073801608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="384" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651073801608" />
+    <state width="1723" height="384" key="GridCell.Tab.4.right" timestamp="1651073801608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="384" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651073801608" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1651241391828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1651241391828" />
+    <state x="0" y="0" width="742" height="1083" key="find.popup" timestamp="1651153391467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="742" height="1083" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651153391467" />
+    <state x="262" y="155" key="new project wizard" timestamp="1651479030381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="262" y="155" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1651479030381" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1651154422640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651154422640" />
+  </component>
+</project>

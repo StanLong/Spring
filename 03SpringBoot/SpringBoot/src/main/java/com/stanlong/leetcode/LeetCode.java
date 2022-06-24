@@ -1,43 +1,26 @@
 package com.stanlong.leetcode;
 
 import java.io.BufferedInputStream;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
- * 用户调度问题
+ * 统计射击比赛成绩
  */
 public class LeetCode {
 
-    private static int res = Integer.MAX_VALUE;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(new BufferedInputStream(System.in));
-        int count = scanner.nextInt();
-        int[][] matrix = new int[count][3];
+        int count = Integer.parseInt(scanner.nextLine());
+        int[][] matrix = new int[2][13];
         for(int i=0; i< matrix.length; i++){
-            for(int j=0; j< matrix[i].length; j++){
-                matrix[i][j] = scanner.nextInt();
+            String str = scanner.nextLine();
+            for(int j=0; j<count; j++){
+                matrix[i][j] = Integer.parseInt(str.split(",")[j]);
             }
         }
-        LinkedList<Integer> path = new LinkedList<>();
-        combine(matrix, 0, -1, path);
-        System.out.println(res);
-    }
-
-    /**
-     * 回溯
-     */
-    public static void combine(int[][] matrix, int k, int preIndex, LinkedList<Integer> path){
-        if(k== matrix.length){
-            res = Math.min(res, path.stream().mapToInt(value -> value).sum());
-            return;
-        }
-        for(int i=0; i<matrix[0].length; i++){
-            if(i == preIndex){
-                continue;
-            }
-            path.add(matrix[k][i]);
-            combine(matrix, k+1, i, path);
-            path.removeLast();
+        for(int i=0; i< matrix.length; i++){
+            System.out.println(Arrays.toString(matrix[i]));
         }
     }
 }

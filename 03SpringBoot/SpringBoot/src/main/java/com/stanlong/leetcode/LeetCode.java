@@ -1,26 +1,36 @@
 package com.stanlong.leetcode;
 
-import java.io.BufferedInputStream;
-import java.util.Arrays;
-import java.util.Scanner;
-
 /**
- * 统计射击比赛成绩
+ * 盛最多水的容器
  */
 public class LeetCode {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(new BufferedInputStream(System.in));
-        int count = Integer.parseInt(scanner.nextLine());
-        int[][] matrix = new int[2][13];
-        for(int i=0; i< matrix.length; i++){
-            String str = scanner.nextLine();
-            for(int j=0; j<count; j++){
-                matrix[i][j] = Integer.parseInt(str.split(",")[j]);
+        Solution solution = new Solution();
+        int[] height = {10,9,8,7,6,5,4,3,2,1};
+        int result = solution.maxArea(height);
+        System.out.println(result);
+    }
+}
+
+class Solution{
+    public int maxArea(int[] height){
+        int len = height.length;
+        int res = 0;
+        for(int i = 0; i < len - 1; i++) {
+            for(int j = i + 1; j < len; j++) {
+                int a = height[i];
+                int b = height[j];
+                int c = j - i;
+                if (a > b){
+                    if (res < b * c)
+                        res = b * c;
+                }else{
+                    if (res < a *c)
+                        res = a * c;
+                }
             }
         }
-        for(int i=0; i< matrix.length; i++){
-            System.out.println(Arrays.toString(matrix[i]));
-        }
+        return res;
     }
 }

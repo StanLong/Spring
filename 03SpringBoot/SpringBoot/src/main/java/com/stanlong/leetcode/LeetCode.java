@@ -1,36 +1,30 @@
 package com.stanlong.leetcode;
 
 /**
- * 盛最多水的容器
+ * 整数转罗马数字
  */
 public class LeetCode {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] height = {10,9,8,7,6,5,4,3,2,1};
-        int result = solution.maxArea(height);
+        int num = 3;
+        String result = solution.maxArea(num);
         System.out.println(result);
     }
 }
 
 class Solution{
-    public int maxArea(int[] height){
-        int len = height.length;
-        int res = 0;
-        for(int i = 0; i < len - 1; i++) {
-            for(int j = i + 1; j < len; j++) {
-                int a = height[i];
-                int b = height[j];
-                int c = j - i;
-                if (a > b){
-                    if (res < b * c)
-                        res = b * c;
-                }else{
-                    if (res < a *c)
-                        res = a * c;
-                }
+    public String maxArea(int num){
+        int[] values = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+        String[] reps = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i<13; i++){
+            while(num>=values[i]){
+                num -= values[i];
+                sb.append(reps[i]);
             }
         }
-        return res;
+        return sb.toString();
     }
 }

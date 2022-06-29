@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>SpringBoot MVC测试页</h1>
+测试REST风格：
+
+<form action="/user" method="get">
+    <input value="REST-GET提交" type="submit" />
+</form>
+
+<form action="/user" method="post">
+    <input value="REST-POST提交" type="submit" />
+</form>
+
+<form action="/user" method="post">
+    <!-- 获取到 _method 方式提交 -->
+    <input name="_method" type="hidden" value="DELETE"/>
+    <input value="REST-DELETE 提交" type="submit"/>
+</form>
+
+<form action="/user" method="post">
+    <!-- 获取到 _method 方式提交 -->
+    <input name="_method" type="hidden" value="PUT" />
+    <input value="REST-PUT提交"type="submit" />
+</form>
+<hr/>
+</body>
+</html>

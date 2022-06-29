@@ -1,41 +1,31 @@
 package com.stanlong.controller;
 
-import com.stanlong.bean.Car;
-import com.stanlong.bean.Person;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
 
-
-    private Car car;
-    private Person person;
-
-
-    @Autowired
-    public void setCar(Car car) {
-        this.car = car;
+    @GetMapping("/user")
+   // 等价于 -》@RequestMapping(value = "/user",method = RequestMethod.GET)
+    public String getUser(){
+        return "GET-张三";
     }
 
-    @Autowired
-    public void setPerson(Person person) {
-        this.person = person;
+    @PostMapping("/user")
+    //  等价于 -》@RequestMapping(value = "/user",method = RequestMethod.POST)
+    public String saveUser(){
+        return "POST-张三";
     }
 
-    @RequestMapping("/person")
-    public Person person(){
-        return person;
+    @PutMapping("/user")
+    //  等价于 -》 @RequestMapping(value = "/user",method = RequestMethod.PUT)
+    public String putUser(){
+        return "PUT-张三";
     }
 
-    @RequestMapping("/car")
-    public Car car(){
-        return car;
-    }
-
-    @RequestMapping("/hello")
-    public String hello(){
-        return "Hello Spring Boot2";
+    @DeleteMapping("/user")
+    //  等价于 -》 @RequestMapping(value = "/user",method = RequestMethod.DELETE)
+    public String deleteUser(){
+        return "DELETE-张三";
     }
 }

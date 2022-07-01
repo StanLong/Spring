@@ -1,41 +1,41 @@
 package com.stanlong.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestAttribute;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.MatrixVariable;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
- * @RequestAttribute 获取request域属性
+ * @MatrixVariable 矩阵变量
  */
-@Controller
+@RestController
 public class ParameterController {
 
-    @GetMapping("/goto")
-    public String goToPage(HttpServletRequest request){
-        request.setAttribute("msg", "转发成功");
-        request.setAttribute("code", 200);
-        return "forward:/success"; // 转发到 /success 请求
+    // 第一种矩阵变量形式
+    // cars/sell;low=34;brand=byd,audi,yd
+    @GetMapping("/cars/{path}")
+    public Map carsSell(@MatrixVariable("low") Integer low
+            , @MatrixVariable("brand") List<String> brand
+            , @PathVariable String path){
+        Map<String, Object> map = new HashMap<>();
+        map.put("low", low);
+        map.put("brand", brand);
+        map.put("path", path);
+        return map;
     }
 
-    /**
-     * 有两种方式从请求域中取数据
-     * 1、使用 @RequestAttribute 注解
-     * 2、获取 HttpServletRequest 对象，从 HttpServletRequest 获取
-     */
-    @ResponseBody
-    @GetMapping("/success")
-    public Map success(@RequestAttribute("msg") String msg
-                        ,@RequestAttribute("code") Integer code
-                        ,HttpServletRequest request){
-        Object msg1 = request.getAttribute("msg");
+    // 第二种矩阵变量形式
+    // 矩阵变量中有多个相同的名字：  /boss/1;age=20/2;age=10
+    @GetMapping("/boss/{bossAge}/{empAge}")
+    public Map boss(@MatrixVariable(value = "age", pathVar = "bossAge") Integer bossAge,
+                    @MatrixVariable(value = "age", pathVar = "empAge") Integer empAge){
         Map<String, Object> map = new HashMap<>();
-        map.put("request_msg", msg1); // 从 request 请求域中获取到的值
-        map.put("annotation_msg", msg); // 从 @RequestAttribute 注解中获取到请求域中的值
+        map.put("bossAge", bossAge);
+        map.put("empAge", empAge);
         return map;
     }
 }

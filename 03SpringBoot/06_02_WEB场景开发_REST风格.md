@@ -36,7 +36,7 @@ Rest风格支持（使用**HTTP**请求方式动词来表示对资源的操作�
      mvc:
        hiddenmethod:
          filter:
-           enabled: true
+           enabled: true # 如果提交的是表单，就需要开启。如果是客户端提交，如postman，可以不用开启。 postman可直接提交PUT或者DELETE请求
    ```
 
 2. 配置页面

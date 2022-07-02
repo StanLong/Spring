@@ -16,7 +16,7 @@
   </parent>
 
   <dependencies>
-    <!-- web启动器 -->
+    <!-- web场景启动器 -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -25,11 +25,13 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
+
     <!--配置自定义的类和配置文件(yml, properties)绑定的提示功能-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -37,11 +39,6 @@
       <optional>true</optional>
     </dependency>
 
-    <!-- 测试内容协商，响应结果为XML格式的数据 -->
-    <dependency>
-      <groupId>com.fasterxml.jackson.dataformat</groupId>
-      <artifactId>jackson-dataformat-xml</artifactId>
-    </dependency>
 
     <!--thymeleaf-->
     <dependency>

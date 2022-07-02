@@ -23,5 +23,4 @@ public class ResponseTestController {
         person.setUserName("zhangsan");
         return person;
     }
-
 }

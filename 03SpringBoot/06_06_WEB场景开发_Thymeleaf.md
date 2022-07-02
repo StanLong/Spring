@@ -2,88 +2,6 @@
 
 [Thymeleaf官方文档](https://www.thymeleaf.org/documentation.html)
 
-## thymeleaf使用
-
-### 引入Starter
-
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
-```
-
-## 自动配置好了thymeleaf
-
-```java
-@Configuration(proxyBeanMethods = false)
-@EnableConfigurationProperties(ThymeleafProperties.class)
-@ConditionalOnClass({ TemplateMode.class, SpringTemplateEngine.class })
-@AutoConfigureAfter({ WebMvcAutoConfiguration.class, WebFluxAutoConfiguration.class })
-public class ThymeleafAutoConfiguration {
-    ...
-}
-```
-
-自动配好的策略
-
-1. 所有thymeleaf的配置值都在 ThymeleafProperties
-
-2. 配置好了 **SpringTemplateEngine** 
-
-3. 配好了 **ThymeleafViewResolver** 
-
-4. 我们只需要直接开发页面
-
-```java
-public static final String DEFAULT_PREFIX = "classpath:/templates/";//模板放置处
-public static final String DEFAULT_SUFFIX = ".html";//文件的后缀名
-```
-
-编写一个控制层：
-
-```java
-@Controller
-public class ViewTestController {
-    @GetMapping("/hello")
-    public String hello(Model model){
-        //model中的数据会被放在请求域中 request.setAttribute("a",aa)
-        model.addAttribute("msg","一定要大力发展工业文化");
-        model.addAttribute("link","http://www.baidu.com");
-        return "success";
-    }
-}
-```
-
-`/templates/success.html`：
-
-```html
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1 th:text="${msg}">nice</h1>
-<h2>
-    <a href="www.baidu.com" th:href="${link}">去百度</a>  <br/>
-    <a href="www.google.com" th:href="@{/link}">去百度</a>
-</h2>
-</body>
-</html>
-```
-
----
-
-```yaml
-server:
-  servlet:
-    context-path: /app #设置应用名
-```
-
-这个设置后，URL要插入`/app`,  如`http://localhost:8080/app/hello.html`。
-
 ## 基本语法
 
 ### 表达式
@@ -133,7 +51,7 @@ server:
 
 - 无操作： _
 
-## 设置属性值-th:attr
+### 设置属性值-th:attr
 
 - 设置单个值
 
@@ -155,7 +73,7 @@ server:
 
 [官方文档 - 5 Setting Attribute Values](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)
 
-## 迭代
+### 迭代
 
 ```html
 <tr th:each="prod : ${prods}">
@@ -173,7 +91,7 @@ server:
 </tr>
 ```
 
-## 条件运算
+### 条件运算
 
 ```html
 <a href="comments.html"
@@ -189,7 +107,7 @@ server:
 </div>
 ```
 
-## 属性优先级
+### 属性优先级
 
 | Order | Feature                         | Attributes                                 |
 | :---- | :------------------------------ | :----------------------------------------- |
@@ -203,4 +121,84 @@ server:
 | 8     | Fragment specification          | `th:fragment`                              |
 | 9     | Fragment removal                | `th:remove`                                |
 
-[官方文档 - 10 Attribute Precedence](
+[官方文档 - 10 Attribute Precedence](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#attribute-precedence)
+
+## thymeleaf使用
+
+### 1、引入Starter
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+```
+
+SpringBoot官方自动配好的策略
+
+1. 所有thymeleaf的配置值都在 ThymeleafProperties
+
+2. 配置好了 **SpringTemplateEngine**  模板引擎
+
+3. 配好了 **ThymeleafViewResolver**  视图解析器
+
+4. 我们只需要直接开发页面， 注意默认前缀和后缀
+
+```java
+public static final String DEFAULT_PREFIX = "classpath:/templates/";//模板放置处
+public static final String DEFAULT_SUFFIX = ".html";//文件的后缀名
+```
+
+### 2、编写一个控制层：
+
+```java
+package com.stanlong.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class ViewTestController {
+    @GetMapping("/hello")
+    public String hello(Model model){
+        // model中的数据会被放在请求域中
+        model.addAttribute("msg","Hello Thymeleaf");
+        return "success";
+    }
+}
+```
+
+### 3、编写前台页面
+
+根据默认路径，页面位置为：  `/templates/success.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="${msg}"></h1>
+</body>
+</html>
+```
+
+---
+
+```yaml
+server:
+  servlet:
+    context-path: /app #设置应用名
+```
+
+这个设置后，URL要插入`/app`,  如`http://localhost:8080/app/hello.html`。
+
+### 4、页面响应
+
+`Hello Thymeleaf`
+
+
+

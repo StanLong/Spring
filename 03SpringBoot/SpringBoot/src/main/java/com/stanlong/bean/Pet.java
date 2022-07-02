@@ -1,12 +1,9 @@
 package com.stanlong.bean;
 
-import lombok.*;
+import lombok.Data;
 
-@Getter
-@Setter
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
+@Data
 public class Pet {
     private String name;
+    private String age;
 }

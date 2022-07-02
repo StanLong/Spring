@@ -37,6 +37,12 @@
       <optional>true</optional>
     </dependency>
 
+    <!-- 测试内容协商，响应结果为XML格式的数据 -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+    </dependency>
+
     <!--thymeleaf-->
     <dependency>
       <groupId>org.springframework.boot</groupId>

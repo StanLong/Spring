@@ -15,12 +15,43 @@
     <version>2.3.5.RELEASE</version>
   </parent>
 
+  <!-- 重新声明mysql的版本（maven的属性的就近优先原则） -->
+  <properties>
+    <java.version>1.8</java.version>
+    <mysql.version>5.1.49</mysql.version>
+  </properties>
+
   <dependencies>
     <!-- web场景启动器 -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <!-- 导入数据开发场景 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jdbc</artifactId>
+    </dependency>
+
+    <!-- 说明：SpringBoot默认引入的mysql版本是8.0.22，这里要修改成自己的版本 -->
+    <!-- 修改版本有两种方式
+      1、直接依赖引入具体版本（maven的就近依赖原则）
+      2、重新声明版本（maven的属性的就近优先原则）
+     -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <!--<version>5.1.49</version>-->
+    </dependency>
+
+    <!-- 整合Junit测试 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-test</artifactId>
+      <version>2.2.6.RELEASE</version>
+      <scope>test</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
@@ -44,6 +75,18 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.2.5.RELEASE</version>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>

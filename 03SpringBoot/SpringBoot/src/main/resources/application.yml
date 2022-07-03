@@ -1,4 +1,6 @@
 spring:
-  mvc:
-    contentnegotiation:
-      favor-parameter: true # 开启内容协商
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_jdbctemplent
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

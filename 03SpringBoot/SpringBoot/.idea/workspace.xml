@@ -268,7 +268,7 @@
       <recent name="D:\StanLong\git_repository\Framework\03Spring\03SpringBoot\SpringBoot\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="JUnit.AdminApplicationTests.contextLoads">
     <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stanlong.leetcode.LeetCode" />
       <module name="SpringBoot" />
@@ -306,6 +306,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stanlong.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stanlong.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.stanlong.admin.AdminApplicationTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stanlong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stanlong" />
+      <option name="MAIN_CLASS_NAME" value="com.stanlong.AdminApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringBoot" />
       <extension name="coverage">
@@ -321,6 +353,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.AdminApplicationTest.contextLoads" />
         <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Application.LeetCode (1)" />
         <item itemvalue="Application.LeetCode" />
@@ -418,7 +452,7 @@
       <workItem from="1656687673188" duration="3711000" />
       <workItem from="1656726648555" duration="12380000" />
       <workItem from="1656765583111" duration="9221000" />
-      <workItem from="1656816537779" duration="3591000" />
+      <workItem from="1656816537779" duration="10998000" />
     </task>
     <servers />
   </component>
@@ -443,6 +477,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="312" y="0" key="#Project_Structure" timestamp="1656823017959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1656823017959" />
     <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1656730716925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -463,38 +501,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="567" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1656737518333" />
-    <state width="1867" height="455" key="GridCell.Tab.0.bottom" timestamp="1656820082056">
+    <state width="1867" height="330" key="GridCell.Tab.0.bottom" timestamp="1656830737377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082056" />
-    <state width="1867" height="455" key="GridCell.Tab.0.center" timestamp="1656820082056">
+    <state width="1867" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
+    <state width="1867" height="330" key="GridCell.Tab.0.center" timestamp="1656830737377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082056" />
-    <state width="1867" height="455" key="GridCell.Tab.0.left" timestamp="1656820082056">
+    <state width="1867" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
+    <state width="1867" height="330" key="GridCell.Tab.0.left" timestamp="1656830737377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082056" />
-    <state width="1867" height="455" key="GridCell.Tab.0.right" timestamp="1656820082056">
+    <state width="1867" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
+    <state width="1867" height="330" key="GridCell.Tab.0.right" timestamp="1656830737377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082056" />
-    <state width="1867" height="455" key="GridCell.Tab.1.bottom" timestamp="1656820082057">
+    <state width="1867" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
+    <state width="1867" height="455" key="GridCell.Tab.1.bottom" timestamp="1656822112563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082057" />
-    <state width="1867" height="455" key="GridCell.Tab.1.center" timestamp="1656820082057">
+    <state width="1867" height="455" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656822112563" />
+    <state width="1867" height="455" key="GridCell.Tab.1.center" timestamp="1656822112563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082057" />
-    <state width="1867" height="455" key="GridCell.Tab.1.left" timestamp="1656820082057">
+    <state width="1867" height="455" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656822112563" />
+    <state width="1867" height="455" key="GridCell.Tab.1.left" timestamp="1656822112563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082057" />
-    <state width="1867" height="455" key="GridCell.Tab.1.right" timestamp="1656820082057">
+    <state width="1867" height="455" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656822112563" />
+    <state width="1867" height="455" key="GridCell.Tab.1.right" timestamp="1656822112563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="455" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656820082057" />
+    <state width="1867" height="455" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656822112563" />
     <state width="1867" height="208" key="GridCell.Tab.2.bottom" timestamp="1656777346997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -511,6 +549,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="208" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656777346997" />
+    <state x="374" y="91" key="Maven.ArtifactSearchDialog" timestamp="1656830317590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="374" y="91" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1656830317590" />
     <state x="312" y="0" key="SettingsEditor" timestamp="1656176515010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -523,10 +565,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="316" y="205" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1656176163689" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1656736817948">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1656829916345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1656736817948" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1656829916345" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

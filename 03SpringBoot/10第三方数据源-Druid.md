@@ -1,3 +1,18 @@
+# 第三方数据源-Druid
+
+1、引入依赖
+
+```xml
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>druid-spring-boot-starter</artifactId>
+    <version>1.1.17</version>
+</dependency>
+```
+
+2、配置Druid
+
+```yaml
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/spring_jdbctemplent
@@ -30,3 +45,23 @@ spring:
           enabled: true
           config:
             drop-table-allow: false
+```
+
+3、编写测试类
+
+```java
+package com.stanlong;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication()
+public class AdminApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(AdminApplication.class, args);
+    }
+}
+```
+
+4、配置文件中配置了开启监控页功能，启动主类访问 `http://localhost:8080/druid/` 查看监控页
+

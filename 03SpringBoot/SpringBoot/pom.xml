@@ -70,6 +70,13 @@
       <optional>true</optional>
     </dependency>
 
+    <!-- Druid 第三方数据源场景 -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid-spring-boot-starter</artifactId>
+      <version>1.1.17</version>
+    </dependency>
+
 
     <!--thymeleaf-->
     <dependency>

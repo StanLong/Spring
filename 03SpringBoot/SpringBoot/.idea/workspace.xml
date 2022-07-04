@@ -268,7 +268,7 @@
       <recent name="D:\StanLong\git_repository\Framework\03Spring\03SpringBoot\SpringBoot\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdminApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stanlong.leetcode.LeetCode" />
       <module name="SpringBoot" />
@@ -295,13 +295,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,9 +355,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="JUnit.AdminApplicationTests.contextLoads" />
         <item itemvalue="JUnit.AdminApplicationTest.contextLoads" />
-        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Application.LeetCode (1)" />
         <item itemvalue="Application.LeetCode" />
       </list>
@@ -453,6 +455,7 @@
       <workItem from="1656726648555" duration="12380000" />
       <workItem from="1656765583111" duration="9221000" />
       <workItem from="1656816537779" duration="10998000" />
+      <workItem from="1656937079788" duration="3215000" />
     </task>
     <servers />
   </component>
@@ -501,22 +504,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="567" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1656737518333" />
-    <state width="1867" height="330" key="GridCell.Tab.0.bottom" timestamp="1656830737377">
+    <state width="1867" height="330" key="GridCell.Tab.0.bottom" timestamp="1656941468450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
-    <state width="1867" height="330" key="GridCell.Tab.0.center" timestamp="1656830737377">
+    <state width="1867" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656941468450" />
+    <state width="1867" height="330" key="GridCell.Tab.0.center" timestamp="1656941468450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
-    <state width="1867" height="330" key="GridCell.Tab.0.left" timestamp="1656830737377">
+    <state width="1867" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656941468450" />
+    <state width="1867" height="330" key="GridCell.Tab.0.left" timestamp="1656941468449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
-    <state width="1867" height="330" key="GridCell.Tab.0.right" timestamp="1656830737377">
+    <state width="1867" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656941468449" />
+    <state width="1867" height="330" key="GridCell.Tab.0.right" timestamp="1656941468450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656830737377" />
+    <state width="1867" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656941468450" />
     <state width="1867" height="455" key="GridCell.Tab.1.bottom" timestamp="1656822112563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -176,9 +176,214 @@ public class UserController {
 
 ## 二、注解版
 
+注解版快速入门地址 `https://github.com/mybatis/spring-boot-starter/wiki/Quick-Start`
 
+1、建表
 
+```sql
+CREATE TABLE city
+(
+  id      INT(11) PRIMARY KEY auto_increment,
+  name    VARCHAR(256),
+  state   VARCHAR(256),
+  country VARCHAR(256)
+);
 
+insert into city (name, state, country) values ("张三", "live", "CN");
+```
 
+2、实体类
 
+```java
+package com.stanlong.bean;
+
+import lombok.Data;
+
+@Data
+public class City {
+    private Long id;
+    private String name;
+    private String state;
+    private String country;
+}
+```
+
+3、mapper接口
+
+```java
+package com.stanlong.mapper;
+
+import com.stanlong.bean.City;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
+
+@Mapper
+public interface CityMapper {
+
+    @Select("select * from city where id=#{id}")
+    public City getById(Long id);
+}
+```
+
+4、Service
+
+```java
+package com.stanlong.service;
+
+import com.stanlong.bean.City;
+import com.stanlong.mapper.CityMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CityService {
+    
+    @Autowired
+    private CityMapper cityMapper;
+    
+    public City getCityById(Long id){
+        return cityMapper.getById(id);
+    }
+}
+```
+
+5、Controller
+
+```java
+package com.stanlong.controller;
+
+import com.stanlong.bean.City;
+import com.stanlong.service.CityService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class CityController {
+    
+    @Autowired
+    public CityService cityService;
+    
+    @ResponseBody
+    @GetMapping("/city")
+    public City getCityById(@RequestParam("id") Long id){
+        return cityService.getCityById(id);
+    }
+}
+```
+
+6、启动主类访问 `http://localhost:8080/city?id=1` 页面响应
+
+```json
+{
+	"id": 1,
+	"name": "张三",
+	"state": "live",
+	"country": "CN"
+}
+```
+
+## 三、混合版
+
+CityMapper.xml
+
+```java
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stanlong.mapper.CityMapper">
+
+    <insert id="insert">
+        insert into city(name, state, country) values (#{name},#{state},#{country})
+    </insert>
+</mapper>
+```
+
+CityMapper.java
+
+```java
+package com.stanlong.mapper;
+
+import com.stanlong.bean.City;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
+
+@Mapper
+public interface CityMapper {
+
+    @Select("select * from city where id=#{id}")
+    public City getById(Long id);
+
+    public void insert(City city);
+}
+```
+
+CityService.java
+
+```java
+package com.stanlong.service;
+
+import com.stanlong.bean.City;
+import com.stanlong.mapper.CityMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CityService {
+
+    @Autowired
+    private CityMapper cityMapper;
+
+    public City getCityById(Long id){
+        return cityMapper.getById(id);
+    }
+
+    public void insert(City city){
+        cityMapper.insert(city);
+    }
+}
+
+```
+
+CityController.java
+
+```java
+package com.stanlong.controller;
+
+import com.stanlong.bean.City;
+import com.stanlong.service.CityService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class CityController {
+
+    @Autowired
+    public CityService cityService;
+
+    @ResponseBody
+    @GetMapping("/city")
+    public City getCityById(@RequestParam("id") Long id){
+        return cityService.getCityById(id);
+    }
+
+    @ResponseBody
+    @PostMapping("/city")
+    public City insert(City city){
+        cityService.insert(city);
+        return city;
+    }
+}
+```
+
+使用postman发送post请求，日志告警
+
+2022-07-06 22:13:38.559  WARN 13724 --- [nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
 

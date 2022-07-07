@@ -262,7 +262,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -271,7 +271,7 @@
       <recent name="D:\StanLong\git_repository\Framework\03Spring\03SpringBoot\SpringBoot\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="JUnit.AdminApplicationTests.testUserMapper">
     <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stanlong.leetcode.LeetCode" />
       <module name="SpringBoot" />
@@ -285,15 +285,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stanlong.com.stanlong.leetcode.LeetCode" />
-      <module name="SpringBoot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stanlong.com.stanlong.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -330,6 +328,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminApplicationTests.testUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stanlong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stanlong" />
+      <option name="MAIN_CLASS_NAME" value="com.stanlong.AdminApplicationTests" />
+      <option name="METHOD_NAME" value="testUserMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringBoot" />
       <extension name="coverage">
@@ -345,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminApplicationTests.testUserMapper" />
         <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="JUnit.AdminApplicationTests.contextLoads" />
         <item itemvalue="JUnit.AdminApplicationTest.contextLoads" />
         <item itemvalue="Application.LeetCode (1)" />
-        <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +462,7 @@
       <workItem from="1656937079788" duration="3774000" />
       <workItem from="1657019634716" duration="7195000" />
       <workItem from="1657111974257" duration="4696000" />
-      <workItem from="1657196375014" duration="627000" />
+      <workItem from="1657196375014" duration="4890000" />
     </task>
     <servers />
   </component>
@@ -485,10 +499,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="511" y="408" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1651479190627" />
-    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1656738227204">
+    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1657201415971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1656738227204" />
+    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1657201415971" />
     <state x="1093" y="206" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1653879207447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -497,62 +511,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="567" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1656737518333" />
-    <state width="1207" height="151" key="GridCell.Tab.0.bottom" timestamp="1657196593497">
+    <state width="1867" height="151" key="GridCell.Tab.0.bottom" timestamp="1657201668519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657196593497" />
-    <state width="1207" height="151" key="GridCell.Tab.0.center" timestamp="1657196593497">
+    <state width="1867" height="151" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668519" />
+    <state width="1867" height="151" key="GridCell.Tab.0.center" timestamp="1657201668519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657196593497" />
-    <state width="1207" height="151" key="GridCell.Tab.0.left" timestamp="1657196593497">
+    <state width="1867" height="151" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668519" />
+    <state width="1867" height="151" key="GridCell.Tab.0.left" timestamp="1657201668519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657196593497" />
-    <state width="1207" height="151" key="GridCell.Tab.0.right" timestamp="1657196593497">
+    <state width="1867" height="151" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668519" />
+    <state width="1867" height="151" key="GridCell.Tab.0.right" timestamp="1657201668519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657196593497" />
-    <state width="1207" height="151" key="GridCell.Tab.1.bottom" timestamp="1657196616997">
+    <state width="1867" height="151" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668519" />
+    <state width="1867" height="151" key="GridCell.Tab.1.bottom" timestamp="1657201668520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657196616997" />
-    <state width="1207" height="151" key="GridCell.Tab.1.center" timestamp="1657196616997">
+    <state width="1867" height="151" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668520" />
+    <state width="1867" height="151" key="GridCell.Tab.1.center" timestamp="1657201668519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657196616997" />
-    <state width="1207" height="151" key="GridCell.Tab.1.left" timestamp="1657196616997">
+    <state width="1867" height="151" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668519" />
+    <state width="1867" height="151" key="GridCell.Tab.1.left" timestamp="1657201668519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657196616997" />
-    <state width="1207" height="151" key="GridCell.Tab.1.right" timestamp="1657196616997">
+    <state width="1867" height="151" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668519" />
+    <state width="1867" height="151" key="GridCell.Tab.1.right" timestamp="1657201668520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1207" height="151" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657196616997" />
-    <state width="1867" height="208" key="GridCell.Tab.2.bottom" timestamp="1657117948510">
+    <state width="1867" height="151" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668520" />
+    <state width="1867" height="151" key="GridCell.Tab.2.bottom" timestamp="1657201668520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="208" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657117948510" />
-    <state width="1867" height="208" key="GridCell.Tab.2.center" timestamp="1657117948510">
+    <state width="1867" height="151" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668520" />
+    <state width="1867" height="151" key="GridCell.Tab.2.center" timestamp="1657201668520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="208" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657117948510" />
-    <state width="1867" height="208" key="GridCell.Tab.2.left" timestamp="1657117948510">
+    <state width="1867" height="151" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668520" />
+    <state width="1867" height="151" key="GridCell.Tab.2.left" timestamp="1657201668520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="208" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657117948510" />
-    <state width="1867" height="208" key="GridCell.Tab.2.right" timestamp="1657117948510">
+    <state width="1867" height="151" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668520" />
+    <state width="1867" height="151" key="GridCell.Tab.2.right" timestamp="1657201668520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="208" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657117948510" />
+    <state width="1867" height="151" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657201668520" />
     <state x="374" y="91" key="Maven.ArtifactSearchDialog" timestamp="1656830317590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="374" y="91" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1656830317590" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1656176515010">
+    <state x="0" y="33" key="SettingsEditor" timestamp="1657198231033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1656176515010" />
+    <state x="0" y="33" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1657198231033" />
     <state x="589" y="195" width="742" height="650" key="find.popup" timestamp="1656735669313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

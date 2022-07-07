@@ -27,11 +27,11 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    <!-- 导入数据开发场景 -->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jdbc</artifactId>
-    </dependency>
+    <!-- 导入数据开发场景, 引入mybatisPlus的开发场景后，这个就不需要了 mybatisPlus 场景包含了jdbc-->
+    <!--<dependency>-->
+    <!--  <groupId>org.springframework.boot</groupId>-->
+    <!--  <artifactId>spring-boot-starter-data-jdbc</artifactId>-->
+    <!--</dependency>-->
 
     <!-- 说明：SpringBoot默认引入的mysql版本是8.0.22，这里要修改成自己的版本 -->
     <!-- 修改版本有两种方式
@@ -82,6 +82,13 @@
       <groupId>org.mybatis.spring.boot</groupId>
       <artifactId>mybatis-spring-boot-starter</artifactId>
       <version>2.1.4</version>
+    </dependency>
+
+    <!-- 整合MyBatisPlus -->
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <version>3.4.1</version>
     </dependency>
 
 

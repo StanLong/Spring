@@ -296,7 +296,7 @@ CityMapper.xml
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.stanlong.mapper.CityMapper">
 
-    <insert id="insert">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
         insert into city(name, state, country) values (#{name},#{state},#{country})
     </insert>
 </mapper>
@@ -314,10 +314,10 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface CityMapper {
 
-    @Select("select * from city where id=#{id}")
+    @Select("select * from city where id=#{id}") // 注解版
     public City getById(Long id);
 
-    public void insert(City city);
+    public void insert(City city); // 配置版
 }
 ```
 
@@ -383,7 +383,18 @@ public class CityController {
 }
 ```
 
-使用postman发送post请求，日志告警
+启动主类，使用postman发送请求，结果如下
 
-2022-07-06 22:13:38.559  WARN 13724 --- [nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+![](.././doc/10.png)
 
+如果报406 [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]， 需要检查下postman的提交方式是否有问题。
+
+检查两个地方
+
+1、检查 Headers 是否为 `application/json`
+
+![](.././doc/11.png)
+
+2、检查raw是否为Text
+
+![](.././doc/12.png)

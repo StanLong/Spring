@@ -58,6 +58,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 
 @Data
+@TableName("user") // 默认实体类的类名和数据库的表名保持一致，如果不一致。如果添加 @TableName 注解指定表名
 public class User {
 
     /**
